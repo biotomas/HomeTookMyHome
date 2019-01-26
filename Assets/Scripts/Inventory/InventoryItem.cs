@@ -26,6 +26,8 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             GetComponentInParent<Inventory>().Close();
             GameObject newObject = Instantiate(objectPrefab, Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity);
             newObject.GetComponent<DynamicObject>().SpawnDragging();
+            newObject.SetActive(true);
+            GetComponentInParent<Inventory>().DeleteItem(this.gameObject);
         }
     }
 

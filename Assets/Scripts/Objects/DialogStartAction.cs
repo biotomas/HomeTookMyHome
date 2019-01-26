@@ -8,5 +8,6 @@ public class DialogStartAction : ActionHandler
     public override void HandleAction()
     {
         dialogSpawner.startDialog(which);
+        print("asdasdasdasdasd");
     }
 }
