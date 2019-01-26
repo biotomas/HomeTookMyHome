@@ -17,38 +17,59 @@ public class textClick : MonoBehaviour
     public GameObject ansb1,ansb2;
     int currentq;
 
-    public void Start() {
+    public void OnEnable() {
         currentq = 0;
         setDialogText();
     }
 
     private void setDialogText() {
         question.text = dialog[currentq];
-        audioSource.clip = soundClips[currentq];
-        audioSource.Play();
-        if (currentq+1 < dialog.Length) {
+        if (soundClips.Length > currentq) {
+            audioSource.clip = soundClips[currentq];
+            audioSource.Play();
+        }
+        ansb1.SetActive(false);
+        ansb2.SetActive(false);
+        if (isSet(1)) {
             ansb1.SetActive(true);
             answ1.text = getMessage(dialog[currentq+1]);
         } else {
-            ansb1.SetActive(false);
-            Destroy(parent, audioSource.clip.length+1);
-            
+            Invoke("deactivate", 2);            
         }
-        if (currentq+2 < dialog.Length && dialog[currentq+2] != "") {
+        if (isSet(2)) {
             ansb2.SetActive(true);
             answ2.text = getMessage(dialog[currentq+2]);
-        } else {
-            ansb2.SetActive(false);
         }
+    }
+
+    private bool isSet(int id) {
+        if (currentq+id >= dialog.Length) {
+            return false;
+        }
+        string msg = dialog[currentq+id];
+        return msg.Length > 1;
+    }
+
+    private void deactivate() {
+        parent.SetActive(false);
     }
 
     public string getMessage(string code) {
         int pos = code.IndexOf(' ');
-        return code.Substring(pos+1);
+        string msg = code.Substring(pos+1);
+        Debug.Log("::" + msg + "::");
+        if (msg.StartsWith("-c-")) {
+            msg = msg.Substring(msg.IndexOf(' '));
+        }
+        return msg;
     }
 
     public void selectAnswer(int id) {
         string nexts = dialog[currentq+id].Split(' ')[0];
+        if (dialog[currentq+id].Split(' ')[1].StartsWith("-c-")) {
+            GameMasterScript.instance.setFlag(dialog[currentq+id].Split(' ')[1]);
+        }
+        Debug.Log("next "+nexts);
         int next = int.Parse(nexts);
         currentq = next;
         setDialogText();
