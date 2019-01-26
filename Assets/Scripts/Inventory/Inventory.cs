@@ -56,6 +56,7 @@ public class Inventory : MonoBehaviour
         {
             //invItem.GetComponent<RectTransform>().transform.position.y
             invItem.transform.position = new Vector3(gap + (i % rowLength)*gap, startHeight - (i/rowLength)*gap, 0);
+            invItem.transform.localScale = new Vector3(0.5f, 0.5f, 1);
             invItem.transform.SetParent(uiContent.transform);
             i++;
         }

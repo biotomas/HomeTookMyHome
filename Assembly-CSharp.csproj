@@ -63,6 +63,7 @@
     <Compile Include="Assets\DialogSystem\DialogSpawner.cs" />
     <Compile Include="Assets\DialogSystem\textClick.cs" />
     <Compile Include="Assets\GameMasterScript.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CloseInventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryButton.cs" />
@@ -73,6 +74,8 @@
     <Compile Include="Assets\Scripts\Objects\Handler\CombineHandler.cs" />
     <Compile Include="Assets\Scripts\Objects\Handler\DragHandler.cs" />
     <Compile Include="Assets\Scripts\Objects\Handler\TakeToInventoryHandler.cs" />
+    <Compile Include="Assets\Scripts\Objects\SoundAction.cs" />
+    <Compile Include="Assets\Scripts\Objects\ToiletAction.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
