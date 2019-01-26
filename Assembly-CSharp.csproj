@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Objects\Handler\DragHandler.cs" />
      <Compile Include="Assets\Scripts\Objects\Handler\TakeToInventoryHandler.cs" />
      <Compile Include="Assets\Scripts\Objects\SoundAction.cs" />
+     <Compile Include="Assets\Scripts\Objects\ToiletAction.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
