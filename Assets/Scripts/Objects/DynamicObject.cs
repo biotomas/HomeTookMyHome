@@ -99,7 +99,7 @@ public class DynamicObject : MonoBehaviour
 
 	private void OnMouseDown()
 	{
-		if (_inventory.IsOpen) return;
+		if (_inventory != null && _inventory.IsOpen) return;
 		
 		if (Input.GetMouseButtonDown(0))
 		{
@@ -111,7 +111,7 @@ public class DynamicObject : MonoBehaviour
 	}
 	
 	private void OnMouseOver () {
-		if (_inventory.IsOpen) return;
+		if (_inventory != null && _inventory.IsOpen) return;
 		
 		if (Input.GetMouseButtonDown(1))
 		{
@@ -123,7 +123,7 @@ public class DynamicObject : MonoBehaviour
 	public void OnMouseUp()
 	{
 		print("asdasd");
-		if (_inventory.IsOpen) return;
+		if (_inventory != null && _inventory.IsOpen) return;
 		
 		_mouseDown = false;
 		if (_startPos == transform.position)
