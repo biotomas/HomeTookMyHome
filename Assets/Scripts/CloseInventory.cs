@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CloseInventory : MonoBehaviour
 {
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>().Close();
     }
