@@ -19,14 +19,15 @@ public class Inventory : MonoBehaviour
     }
 
 
-    private List<GameObject> items = new List<GameObject>();
+    private List<GameObject> items;
     
 
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        items = new List<GameObject>();
+        Close();
     }
 
     // Update is called once per frame
@@ -39,12 +40,14 @@ public class Inventory : MonoBehaviour
     {
         //gameObject.SetActive(true);
         GetComponent<Canvas>().enabled = true;
+        uiContent.transform.position = new Vector3(0, 0, 0);
+        
         foreach (GameObject invItem in items)
         {
             invItem.transform.SetParent(null);
         }
 
-        uiContent.transform.position = new Vector3(0, 0, 0);
+        
         _isOpen = true;
 
         int rowLength = 10;
@@ -54,15 +57,11 @@ public class Inventory : MonoBehaviour
         
         foreach (GameObject invItem in items)
         {
-            //invItem.GetComponent<RectTransform>().transform.position.y
             invItem.transform.position = new Vector3(gap + (i % rowLength)*gap, startHeight - (i/rowLength)*gap, 0);
             invItem.transform.localScale = new Vector3(0.5f, 0.5f, 1);
             invItem.transform.SetParent(uiContent.transform);
             i++;
         }
-        
-        
-        
     }
 
     public void Close()

@@ -8,10 +8,16 @@ public class GameMasterScript : MonoBehaviour
 
     public Camera[] cameras;
 
+    public GameObject inventoryIcon;
+
+    public DynamicObject CurrentHeldItem { get; set; }
+
+    
     public void changeCameraTo(int index) {
         for (int i = 0; i < cameras.Length; i++) {
             if (i == index) {
                 cameras[i].enabled = true;
+                inventoryIcon.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth - 40, 32));
             } else {
                 cameras[i].enabled = false;
             }
@@ -25,6 +31,7 @@ public class GameMasterScript : MonoBehaviour
         flags = new HashSet<string>();
         changeCameraTo(0);
     }
+    
     public bool getFlag(string name) {
         return flags.Contains(name);
     }

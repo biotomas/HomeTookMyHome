@@ -87,6 +87,7 @@ public class DynamicObject : MonoBehaviour
 			var pos = _startPos + diff;
 			transform.position = pos;
 			if (_haveDragHandler) _dragHandler.HandleDrag();
+			GameMasterScript.instance.CurrentHeldItem = this;
 		}
 	}
 
@@ -99,8 +100,6 @@ public class DynamicObject : MonoBehaviour
 
 	private void OnMouseDown()
 	{
-		if (_inventory != null && _inventory.IsOpen) return;
-		
 		if (Input.GetMouseButtonDown(0))
 		{
 			_mouseDown = true;
@@ -122,14 +121,19 @@ public class DynamicObject : MonoBehaviour
 
 	public void OnMouseUp()
 	{
-		print("asdasd");
-		if (_inventory != null && _inventory.IsOpen) return;
-		
-		_mouseDown = false;
 		if (_startPos == transform.position)
 		{
 			if (_haveActionHandler) _actionHandler.HandleAction();
-		} else {
+		}
+		
+	}
+
+	public void Release()
+	{
+		if (_inventory != null && _inventory.IsOpen) return;
+		
+		_mouseDown = false;
+		if (!(_startPos == transform.position)) {
 			if (isOverlapping)
 			{
 				if (_haveCombineHandler) _combineHandler.HandleCombination(overlappingObject);
@@ -143,7 +147,7 @@ public class DynamicObject : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (_inventory.IsOpen) return;
+		if (_inventory != null && _inventory.IsOpen) return;
 		
 		print(other.name);
 		if (other.name == "InventoryIcon")
