@@ -5,6 +5,7 @@ namespace Objects
     public class DoorAction : ActionHandler
     {
         public AudioSource audioSource;
+        public GameObject handyCanvas;
         public AudioClip doorSound;
         
         public DialogSpawner dialogSpawner;
@@ -28,6 +29,10 @@ namespace Objects
                 {
                     dialogSpawner.startDialog(which);
                 }
+            }
+
+            if (targetRoom == 6) {
+                handyCanvas.SetActive(true);
             }
             
             if (targetRoom != -1)
