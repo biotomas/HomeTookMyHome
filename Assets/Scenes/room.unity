@@ -1805,7 +1805,7 @@ PrefabInstance:
     - target: {fileID: 2887911283845372598, guid: 001c6055fcf3c3e9e8a868918a69e656,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000061035156
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 2887911284096161364, guid: 001c6055fcf3c3e9e8a868918a69e656,
         type: 3}
@@ -2536,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[7]
-      value: 9 Okay, set it up.
+      value: 9 -c-openDoor1 Okay, set it up.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2566,7 +2566,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[13]
-      value: 9 Okay, do it ...
+      value: "9 -c-openDoor1 \x13Okay, do it ..."
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
