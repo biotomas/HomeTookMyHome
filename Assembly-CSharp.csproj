@@ -63,6 +63,7 @@
     <Compile Include="Assets\DialogSystem\DialogSpawner.cs" />
     <Compile Include="Assets\DialogSystem\textClick.cs" />
     <Compile Include="Assets\GameMasterScript.cs" />
+    <Compile Include="Assets\LaughTrack.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CloseInventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\DropItemOnRoom.cs" />
