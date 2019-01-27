@@ -2005,9 +2005,465 @@ Transform:
   - {fileID: 686574355}
   - {fileID: 2053738682}
   - {fileID: 1563744189}
+  - {fileID: 1244431629}
+  - {fileID: 1288690766}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1244431628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1242640691}
+    m_Modifications:
+    - target: {fileID: 2841956484606569356, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Name
+      value: spaghetti_delivery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569356, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[0]
+      value: Best Spaghetti in the city here, how can I help you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[1]
+      value: "3 I\u2019d like some Spaghetti Bolognese."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[2]
+      value: "12 I\u2019ll have two number 9s, a number 9 large, a number 6 with extra
+        dip, a number 7, two number 45s, one with cheese, and a large soda."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[3]
+      value: 'Anything else? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[4]
+      value: '6 Do you know how I can get rid of my HOME device? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[5]
+      value: "9 That\u2019s all."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[6]
+      value: What kind of question is that, man. Just throw it out of the window or
+        something. Anything else?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[7]
+      value: "9 That\u2019s all. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[9]
+      value: Your order will arrive in a few minutes. Bye!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[12]
+      value: '...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[13]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[15]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[16]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
+--- !u!224 &1244431629 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1244431628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1288690765
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1242640691}
+    m_Modifications:
+    - target: {fileID: 2841956484606569356, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Name
+      value: spaghetti_in_pockets
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569356, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[0]
+      value: Did you just put Spaghetti Bolognese in your pockets?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[1]
+      value: "3 Umm \u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[2]
+      value: 12 No.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[3]
+      value: "I\u2019m not sure if I want to live together with someone who orders
+        spaghetti and then puts it into their pants."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[4]
+      value: '6 You are free to leave. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[5]
+      value: "9 \x13Look, this is an inventory. It works differently than pockets
+        in real life."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[6]
+      value: 'No, I want to see how this unfolds. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[9]
+      value: Tell that to your clothes full of tomato sauce.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[12]
+      value: '... Okay?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[13]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[15]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[16]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
+--- !u!224 &1288690766 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2841956484606569352, guid: caa385828594e5f10a5f911f9d97bfc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1288690765}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1404909983
 PrefabInstance:
   m_ObjectHideFlags: 0
