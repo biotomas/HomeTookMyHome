@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WindowDrag : CombineHandler
 {
     public Sprite brokenWindow;
     public AudioSource audioSource;
     public AudioClip breakSound;
+    public AudioClip endingSound;
 
     private bool isBroken = false;
     
@@ -25,7 +27,8 @@ public class WindowDrag : CombineHandler
         {
             if (isBroken)
             {
-                // win game here
+                Destroy(other);
+                StartCoroutine(hammerEnding());
             }
             else
             {
@@ -34,5 +37,16 @@ public class WindowDrag : CombineHandler
         }
 
         
+    }
+    
+    
+    IEnumerator hammerEnding()
+    {
+        audioSource.clip = endingSound;
+        audioSource.Play();
+        
+        yield return new WaitForSeconds(5);
+        
+        SceneManager.LoadScene("credits");
     }
 }

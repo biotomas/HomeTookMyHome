@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SleepAction : ActionHandler
 {
@@ -47,10 +48,9 @@ public class SleepAction : ActionHandler
             audioSource.clip = endingSound;
             audioSource.Play();
             
-            yield return new WaitForSeconds(8);
+            yield return new WaitForSeconds(9);
             
-            // change to ending
-            // TODO
+            SceneManager.LoadScene("credits");
         }
     }
 }
