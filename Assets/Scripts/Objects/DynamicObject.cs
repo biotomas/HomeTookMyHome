@@ -94,18 +94,23 @@ public class DynamicObject : MonoBehaviour
 	public void SpawnDragging()
 	{
 		_mouseDown = true;
-		_renderer = GetComponent<SpriteRenderer>();
-		_renderer.sortingOrder = ++maxSortingOrder;
+		if (_renderer != null)
+		{
+			_renderer = GetComponent<SpriteRenderer>();
+			_renderer.sortingOrder = ++maxSortingOrder;
+		}
 	}
 
 	private void OnMouseDown()
 	{
+		if (_inventory != null && _inventory.IsOpen) return;
+		
 		if (Input.GetMouseButtonDown(0))
 		{
 			_mouseDown = true;
 			_startPos = transform.position;
 			_startMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			_renderer.sortingOrder = ++maxSortingOrder;
+			if (_renderer != null) _renderer.sortingOrder = ++maxSortingOrder;
 		}
 	}
 	
@@ -121,6 +126,9 @@ public class DynamicObject : MonoBehaviour
 
 	public void OnMouseUp()
 	{
+		if (_inventory != null && _inventory.IsOpen) return;
+		_mouseDown = false;
+		
 		if (_startPos == transform.position)
 		{
 			if (_haveActionHandler) _actionHandler.HandleAction();
