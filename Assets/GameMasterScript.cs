@@ -10,6 +10,16 @@ public class GameMasterScript : MonoBehaviour
 
     public GameObject inventoryIcon;
 
+    public GameObject spaghett;
+
+    //public DialogSpawner dialogSpawner;
+    //public int spaghettDialog;
+
+    public AudioSource audioSource;
+    public AudioClip deliveryThreeFifty;
+    
+    
+
     public DynamicObject CurrentHeldItem { get; set; }
 
     
@@ -18,6 +28,14 @@ public class GameMasterScript : MonoBehaviour
             if (i == index) {
                 cameras[i].enabled = true;
                 inventoryIcon.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth - 40, 32));
+
+                if (i == 3 && getFlag("-c-ordered") && !getFlag("-c-delivered"))
+                {
+                    spaghett.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth / 2, cameras[i].pixelHeight / 2));
+                    audioSource.clip = deliveryThreeFifty;
+                    audioSource.Play();
+                    setFlag("-c-delivered");
+                }
             } else {
                 cameras[i].enabled = false;
             }
