@@ -110,7 +110,7 @@ public class DynamicObject : MonoBehaviour
 			_mouseDown = true;
 			_startPos = transform.position;
 			_startMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			if (_renderer != null) _renderer.sortingOrder = ++maxSortingOrder;
+			if (draggable && _renderer != null) _renderer.sortingOrder = ++maxSortingOrder;
 		}
 	}
 	
