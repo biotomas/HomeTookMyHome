@@ -11,6 +11,7 @@ public class DropItemOnRoom : MonoBehaviour
             if (GameMasterScript.instance.CurrentHeldItem != null)
             {
                 GameMasterScript.instance.CurrentHeldItem.Release();
+                GameMasterScript.instance.CurrentHeldItem = null;
             }
         }
     }
