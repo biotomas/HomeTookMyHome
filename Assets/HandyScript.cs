@@ -18,6 +18,7 @@ public class HandyScript : MonoBehaviour
     }
 
     public void dialButton(int button) {
+        Debug.Log("Dialed " + button);
         if (button == -2) {
             GameMasterScript.instance.changeCameraTo(2);
             parent.SetActive(false);
