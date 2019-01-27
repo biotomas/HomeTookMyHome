@@ -85,6 +85,7 @@ public class Inventory : MonoBehaviour
         
         // create inventory item from gameobject and add it to list
         GameObject newItem = Instantiate(inventoryItemPrefab, Vector3.zero, Quaternion.identity);
+        newItem.name = item.name;
         Image img = newItem.GetComponent<Image>();
         img.sprite = item.GetComponent<SpriteRenderer>().sprite;
         newItem.GetComponent<InventoryItem>().objectPrefab = item;
@@ -118,7 +119,7 @@ public class Inventory : MonoBehaviour
     {
         foreach (GameObject go in items)
         {
-            if (go.name == itemName)
+            if (go.name.StartsWith(itemName))
             {
                 return true;
             }

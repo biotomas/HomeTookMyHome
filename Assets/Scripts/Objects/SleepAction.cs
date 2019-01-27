@@ -7,6 +7,14 @@ public class SleepAction : ActionHandler
     public AudioSource audioSource;
     public AudioClip roosterSound;
     public AudioClip snoringSound;
+
+    public Inventory inventory;
+
+    public Sprite dirtySprite;
+
+    public DialogSpawner dialogSpawner;
+    public int dirtyBedDialog;
+    
     
     public override void HandleAction()
     {
@@ -28,5 +36,12 @@ public class SleepAction : ActionHandler
         yield return new WaitForSeconds(2);
         
         GameMasterScript.instance.changeCameraTo(5);
+
+        if (inventory.ContainsItem("Spaghett"))
+        {
+            print("slept with spaghett");
+            GetComponent<SpriteRenderer>().sprite = dirtySprite;
+            dialogSpawner.startDialog(dirtyBedDialog);
+        }
     }
 }
