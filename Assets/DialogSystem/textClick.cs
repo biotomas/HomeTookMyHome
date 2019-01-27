@@ -34,7 +34,14 @@ public class textClick : MonoBehaviour
             ansb1.SetActive(true);
             answ1.text = getMessage(dialog[currentq+1]);
         } else {
-            Invoke("deactivate", 2);            
+            if (audioSource.clip == null)
+            {
+                Invoke("deactivate", 2);     
+            }
+            else
+            {
+                Invoke("deactivate", audioSource.clip.length + 2);
+            }
         }
         if (isSet(2)) {
             ansb2.SetActive(true);
