@@ -1862,7 +1862,7 @@ PrefabInstance:
     - target: {fileID: 2887911283845372598, guid: 001c6055fcf3c3e9e8a868918a69e656,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 2887911284096161364, guid: 001c6055fcf3c3e9e8a868918a69e656,
         type: 3}
@@ -2143,28 +2143,27 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[7]
-      value: 9 One is just a black square and the other is a knock-knock joke
+      value: 9 Okay, set it up.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[8]
-      value: 
+      value: 12 No way, then you could take over my house!
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[9]
-      value: Oh, right, you need to setup smart home security door control thing,
-        then I will open the door for you
+      value: Connection successful. I am sure we will become great friends.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[10]
-      value: 15 -c-openDoor1 ok, set it up
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[11]
-      value: 12 no way, then you could take over my home
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2174,7 +2173,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[13]
-      value: "15 -c-openDoor1 \x13ok, do it"
+      value: 9 Okay, do it ...
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2184,7 +2183,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[15]
-      value: fine, bye
+      value: Fine. Bye!
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2309,17 +2308,18 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[0]
-      value: Hello, I am your new smart home device, how can I help you?
+      value: Hello, and welcome to your house. I live here now. Thank you for setting
+        me up. If you need anything, let me know.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[1]
-      value: 15 Hi, I am ok
+      value: 3 I cannot get out of the living room.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[2]
-      value: 3 I cannot get out of the room
+      value: 15 I'm fine.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2329,17 +2329,18 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[4]
-      value: 15 Ah, ok, I will try
+      value: 6 One is locked, and the other one is a knock knock joke.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[5]
-      value: 6 Yes I tried
+      value: 15 Okay, I will try.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[6]
-      value: And?
+      value: Oh right, you need to set up the patented HOME Security System first
+        by letting me connect to all of your devices.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2814,7 +2815,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2859,12 +2860,12 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[7]
-      value: 15 Diconnect it
+      value: 16 Disconnected.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[8]
-      value: 
+      value: 16 Never mind.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2879,13 +2880,13 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[11]
-      value: 12 ...
+      value: 12 Umm ...
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[12]
-      value: "\x13Looks like you\x13 started a knock knock joke without thinking of
-        a punchline"
+      value: Our hero had begun a knock knock joke without thinking of a punchline.
+        Embarrassed, he went silent.
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -2900,7 +2901,12 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: dialog.Array.data[15]
-      value: "Nevermind\x13"
+      value: Never mind.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: dialog.Array.data[16]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
