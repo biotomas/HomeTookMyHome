@@ -29,7 +29,7 @@ public class GameMasterScript : MonoBehaviour
     public void Start() {
         instance = this;
         flags = new HashSet<string>();
-        changeCameraTo(0);
+        changeCameraTo(2);
     }
     
     public bool getFlag(string name) {
