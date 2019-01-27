@@ -19,14 +19,13 @@ public class Inventory : MonoBehaviour
     }
 
 
-    private List<GameObject> items;
+    private List<GameObject> items = new List<GameObject>();
     
 
     
     // Start is called before the first frame update
     void Start()
     {
-        items = new List<GameObject>();
         Close();
     }
 
@@ -72,11 +71,13 @@ public class Inventory : MonoBehaviour
 
 
 
+    /*
     public void PutItem(String itemName)
     {
         // todo implement
         // find prefab (?) by name and then call putitem(gameobject)
     }
+    */
     
     public void PutItem(GameObject item)
     {
@@ -99,11 +100,19 @@ public class Inventory : MonoBehaviour
         Destroy(item);       
     }
 
+    /*
     public void DeleteItem(String itemName)
     {
-        // todo implement
-        // find gameobject by name and thenn call deleteitem(gameobject)
+        foreach (GameObject go in items)
+        {
+            if (go.name.StartsWith(itemName))
+            {
+                DeleteItem(go);
+                break;
+            }
+        }
     }
+    */
 
     public Boolean ContainsItem(String itemName)
     {

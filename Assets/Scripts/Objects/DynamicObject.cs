@@ -94,9 +94,9 @@ public class DynamicObject : MonoBehaviour
 	public void SpawnDragging()
 	{
 		_mouseDown = true;
+		_renderer = GetComponent<SpriteRenderer>();
 		if (_renderer != null)
 		{
-			_renderer = GetComponent<SpriteRenderer>();
 			_renderer.sortingOrder = ++maxSortingOrder;
 		}
 	}
