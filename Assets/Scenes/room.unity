@@ -3167,6 +3167,7 @@ MonoBehaviour:
   audioSource: {fileID: 1611153063}
   breakSound: {fileID: 8300000, guid: 8dcda32ae7b63cfafb21a7a392aea7d6, type: 3}
   endingSound: {fileID: 8300000, guid: d96e86060e40cb059b2e06455bb86e16, type: 3}
+  kitchenImage: {fileID: 1210920}
 --- !u!1001 &1140177146
 PrefabInstance:
   m_ObjectHideFlags: 0
