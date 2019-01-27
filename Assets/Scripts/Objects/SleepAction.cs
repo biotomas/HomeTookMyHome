@@ -8,6 +8,8 @@ public class SleepAction : ActionHandler
     public AudioClip roosterSound;
     public AudioClip snoringSound;
 
+    public AudioClip endingSound;
+
     public Inventory inventory;
 
     public Sprite dirtySprite;
@@ -28,7 +30,7 @@ public class SleepAction : ActionHandler
         audioSource.clip = snoringSound;
         audioSource.Play();
         
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         
         audioSource.clip = roosterSound;
         audioSource.Play();
@@ -41,7 +43,14 @@ public class SleepAction : ActionHandler
         {
             print("slept with spaghett");
             GetComponent<SpriteRenderer>().sprite = dirtySprite;
-            dialogSpawner.startDialog(dirtyBedDialog);
+            
+            audioSource.clip = endingSound;
+            audioSource.Play();
+            
+            yield return new WaitForSeconds(8);
+            
+            // change to ending
+            // TODO
         }
     }
 }
