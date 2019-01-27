@@ -145,6 +145,11 @@ public class DynamicObject : MonoBehaviour
 			if (isOverlapping)
 			{
 				if (_haveCombineHandler) _combineHandler.HandleCombination(overlappingObject);
+				CombineHandler otherCh = overlappingObject.GetComponent<CombineHandler>();
+				if (otherCh != null)
+				{
+					otherCh.HandleCombination(gameObject);
+				}
 			}
 			if (overlapsInventory)
 			{
