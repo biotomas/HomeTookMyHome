@@ -1108,6 +1108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandyRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 3525942931510243897, guid: 1fd0b7d93e6588eb98414b5ac4c11387,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3525942931009285681, guid: 1fd0b7d93e6588eb98414b5ac4c11387,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1166,11 +1171,6 @@ PrefabInstance:
     - target: {fileID: 3525942931510243890, guid: 1fd0b7d93e6588eb98414b5ac4c11387,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3525942931510243897, guid: 1fd0b7d93e6588eb98414b5ac4c11387,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3525942931510243894, guid: 1fd0b7d93e6588eb98414b5ac4c11387,
@@ -2369,16 +2369,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7ff428b6887d2366a985f6e778956fbe,
         type: 3}
-    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1611153063}
-    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
-        type: 3}
-      propertyPath: draggable
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2603795148692859610, guid: d21b890bbd0293013a338aae0400e835,
         type: 3}
       propertyPath: m_Enabled
@@ -2408,6 +2398,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1611153063}
+    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
+        type: 3}
+      propertyPath: draggable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21b890bbd0293013a338aae0400e835, type: 3}
@@ -2749,10 +2749,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 442862966, guid: 1c10fdf8895b73ae5b71242e95e85000, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1611153063}
     - target: {fileID: 442862963, guid: 1c10fdf8895b73ae5b71242e95e85000, type: 3}
       propertyPath: audioSource
       value: 
@@ -2761,6 +2757,10 @@ PrefabInstance:
       propertyPath: dialogSpawner
       value: 
       objectReference: {fileID: 6755798679830790084}
+    - target: {fileID: 442862966, guid: 1c10fdf8895b73ae5b71242e95e85000, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1611153063}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c10fdf8895b73ae5b71242e95e85000, type: 3}
 --- !u!1 &917209228 stripped
@@ -3350,16 +3350,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d33a46695b409a8bf94fd5a042fa3df8,
         type: 3}
-    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1611153063}
-    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
-        type: 3}
-      propertyPath: draggable
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2603795148692859610, guid: d21b890bbd0293013a338aae0400e835,
         type: 3}
       propertyPath: m_Offset.y
@@ -3393,6 +3383,16 @@ PrefabInstance:
     - target: {fileID: 2603795148692859610, guid: d21b890bbd0293013a338aae0400e835,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1611153063}
+    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
+        type: 3}
+      propertyPath: draggable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3491,11 +3491,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8e22ae09f13c75617817a1182c0dad64,
         type: 3}
-    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1611153063}
     - target: {fileID: 2603795148692859610, guid: d21b890bbd0293013a338aae0400e835,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3521,6 +3516,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 10.87
       objectReference: {fileID: 0}
+    - target: {fileID: 83124687670421611, guid: d21b890bbd0293013a338aae0400e835,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1611153063}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21b890bbd0293013a338aae0400e835, type: 3}
 --- !u!1 &1240345670
@@ -3880,6 +3880,11 @@ PrefabInstance:
       propertyPath: soundClips.Array.data[9]
       value: 
       objectReference: {fileID: 8300000, guid: 199790d42b2151dd2a75dd1d4a56c113, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: ce379e4a564049b32a1f37f700cd0d89, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
 --- !u!224 &1244431629 stripped
@@ -5467,7 +5472,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 6f86327f25d9b32efb5b70f03f0ee1e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5839,6 +5844,14 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1611153063}
+    - target: {fileID: 1568168034, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
+      propertyPath: which
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568168034, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
+      propertyPath: dialogSpawner
+      value: 
+      objectReference: {fileID: 6755798679830790084}
     - target: {fileID: 1568168035, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
       propertyPath: m_Offset.x
       value: -3.3935976
@@ -5855,14 +5868,6 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 29.74558
       objectReference: {fileID: 0}
-    - target: {fileID: 1568168034, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
-      propertyPath: which
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1568168034, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
-      propertyPath: dialogSpawner
-      value: 
-      objectReference: {fileID: 6755798679830790084}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2cc9549b7aa505a98a87a63f8cd697a, type: 3}
 --- !u!4 &2072416471 stripped

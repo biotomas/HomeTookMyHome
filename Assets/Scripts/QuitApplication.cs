@@ -7,7 +7,7 @@ public class QuitApplication : MonoBehaviour
 {
     void OnMouseUp()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }
