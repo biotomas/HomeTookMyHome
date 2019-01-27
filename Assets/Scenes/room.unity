@@ -3516,7 +3516,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.size
-      value: 0
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -3605,6 +3605,26 @@ PrefabInstance:
       propertyPath: dialog.Array.data[16]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d994084a438325688c432a26a433f75, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: c97a5e85781260c1aacd8a90ab008ad3, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: b1f2ffd8b6e60bc16ad4944834500578, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 199790d42b2151dd2a75dd1d4a56c113, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
 --- !u!224 &1244431629 stripped
@@ -3743,7 +3763,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.size
-      value: 0
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -3832,6 +3852,31 @@ PrefabInstance:
       propertyPath: dialog.Array.data[16]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 12577592d577ba2cba274b3acb828dec, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: dfc71b70e0c81927cb4339c15260f3e1, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: cf95cef4f1eba1e9b857a827cf5b3439, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 25f46d3bdf287c980a1d009b8f8b16e2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
 --- !u!224 &1288690766 stripped
@@ -3970,7 +4015,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.size
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -4178,47 +4223,62 @@ PrefabInstance:
         type: 3}
       propertyPath: soundClips.Array.data[7]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[8]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[9]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 8300000, guid: b6362968b92da39b1801d73ecb531fd9, type: 3}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[10]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[11]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[12]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 8300000, guid: 4da9b3c1cca6f1a97a83eb0bef400aac, type: 3}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[13]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.data[14]
       value: 
-      objectReference: {fileID: 8300000, guid: 226a97df1b833cf789d0eefeb889994b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: gameMaster
       value: 
       objectReference: {fileID: 579640484}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 44acd8a03d885ab608afb9a29dc86d0e, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2549d688ec12ca7e2aad85ce08e4018f, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 18e983b8b9929420998eacba2902c417, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
 --- !u!224 &1404909984 stripped
@@ -4547,7 +4607,7 @@ PrefabInstance:
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
       propertyPath: soundClips.Array.size
-      value: 0
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
         type: 3}
@@ -4635,6 +4695,31 @@ PrefabInstance:
       propertyPath: dialog.Array.data[16]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: ca47fce3f178185769327f98a8acfa99, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: b32b4bc5f673c35c9862f15cedb6d8ac, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: d65ad64832649c3c0abe376337917926, type: 3}
+    - target: {fileID: 2841956485842896077, guid: caa385828594e5f10a5f911f9d97bfc4,
+        type: 3}
+      propertyPath: soundClips.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9becccf27d179aa93bc39952086ec160, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa385828594e5f10a5f911f9d97bfc4, type: 3}
 --- !u!224 &1563744189 stripped
@@ -5170,6 +5255,7 @@ MonoBehaviour:
   audioSource: {fileID: 1611153063}
   roosterSound: {fileID: 8300000, guid: 262028850c97ab623a0af464a137d192, type: 3}
   snoringSound: {fileID: 8300000, guid: 450ec2afc0a4cbec2bfbd78660ffd121, type: 3}
+  endingSound: {fileID: 8300000, guid: edd31533493f2f71d80b1eb243df39a8, type: 3}
   inventory: {fileID: 782880938}
   dirtySprite: {fileID: 21300000, guid: 5562c4ddc7ac61bc7a1bd0653575d003, type: 3}
   dialogSpawner: {fileID: 6755798679830790084}
@@ -5951,7 +6037,7 @@ PrefabInstance:
         type: 3}
       propertyPath: deliveryThreeFifty
       value: 
-      objectReference: {fileID: 8300000, guid: cb012a62341a72599b98814e40a0ce75, type: 3}
+      objectReference: {fileID: 8300000, guid: 54563a3fc6e8ffc68aad512a439a865a, type: 3}
     - target: {fileID: 5769487003739361433, guid: f8da96e2a49ec9747942468dfafe389e,
         type: 3}
       propertyPath: m_LocalPosition.x
