@@ -2,19 +2,13 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>4</LangVersion>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
-    <_TargetFrameworkDirectories>non_empty_path_generated_by_rider_editor_plugin</_TargetFrameworkDirectories>
-    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_rider_editor_plugin</_FullFrameworkReferenceAssemblyPaths>
-    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{DAF3635B-2AFC-6E71-FD5D-17F498773B0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,289 +46,289 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DialogSystem\clickOn.cs" />
-    <Compile Include="Assets\DialogSystem\DialogSpawner.cs" />
-    <Compile Include="Assets\DialogSystem\textClick.cs" />
-    <Compile Include="Assets\GameMasterScript.cs" />
-    <Compile Include="Assets\LaughTrack.cs" />
-    <Compile Include="Assets\Scripts\ChangeScene.cs" />
-    <Compile Include="Assets\Scripts\CloseInventory.cs" />
-    <Compile Include="Assets\Scripts\Inventory\DropItemOnRoom.cs" />
-    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Inventory\InventoryButton.cs" />
-    <Compile Include="Assets\Scripts\Inventory\InventoryItem.cs" />
-    <Compile Include="Assets\Scripts\Objects\DialogStartAction.cs" />
-    <Compile Include="Assets\Scripts\Objects\DoorAction.cs" />
-    <Compile Include="Assets\Scripts\Objects\DynamicObject.cs" />
-    <Compile Include="Assets\Scripts\Objects\Handler\ActionHandler.cs" />
-    <Compile Include="Assets\Scripts\Objects\Handler\CombineHandler.cs" />
-    <Compile Include="Assets\Scripts\Objects\Handler\DragHandler.cs" />
-    <Compile Include="Assets\Scripts\Objects\Handler\TakeToInventoryHandler.cs" />
-    <Compile Include="Assets\Scripts\Objects\SoundAction.cs" />
-    <Compile Include="Assets\Scripts\Objects\ToiletAction.cs" />
-    <Compile Include="Assets\Scripts\QuitApplication.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.BaselibModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.FileSystemHttpModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTrackingModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StyleSheetsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TLSModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TimelineModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UNETModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VFXModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VideoModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Locator">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Timeline">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GoogleAudioSpatializer">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/home/patrick/Projects/Unity/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="mscorlib">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityScript">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityScript.Lang">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
-    </Reference>
-    <Reference Include="Boo.Lang">
-      <HintPath>/home/patrick/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\DialogSystem\clickOn.cs" />
+     <Compile Include="Assets\DialogSystem\DialogSpawner.cs" />
+     <Compile Include="Assets\DialogSystem\textClick.cs" />
+     <Compile Include="Assets\GameMasterScript.cs" />
+     <Compile Include="Assets\LaughTrack.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
+     <Compile Include="Assets\Scripts\CloseInventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\DropItemOnRoom.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\InventoryButton.cs" />
+     <Compile Include="Assets\Scripts\Inventory\InventoryItem.cs" />
+     <Compile Include="Assets\Scripts\Objects\DialogStartAction.cs" />
+     <Compile Include="Assets\Scripts\Objects\DoorAction.cs" />
+     <Compile Include="Assets\Scripts\Objects\DynamicObject.cs" />
+     <Compile Include="Assets\Scripts\Objects\Handler\ActionHandler.cs" />
+     <Compile Include="Assets\Scripts\Objects\Handler\CombineHandler.cs" />
+     <Compile Include="Assets\Scripts\Objects\Handler\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\Objects\Handler\TakeToInventoryHandler.cs" />
+     <Compile Include="Assets\Scripts\Objects\SoundAction.cs" />
+     <Compile Include="Assets\Scripts\Objects\ToiletAction.cs" />
+     <Compile Include="Assets\Scripts\QuitApplication.cs" />
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTrackingModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>/home/dominik/workspace/HomeTookMyHome/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>/home/dominik/Unity/Hub/Editor/2018.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -344,4 +338,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
