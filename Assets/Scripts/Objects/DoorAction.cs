@@ -37,9 +37,12 @@ namespace Objects
             
             if (targetRoom != -1)
             {
-                audioSource.clip = doorSound;
-                audioSource.Play();
+                if (doorSound != null) {
+                    audioSource.clip = doorSound;
+                    audioSource.Play();
+                }
                 GameMasterScript.instance.changeCameraTo(targetRoom);
+                
             }
             
         }

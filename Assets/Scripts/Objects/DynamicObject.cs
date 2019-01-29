@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.Remoting.Messaging;
+using Boo.Lang;
 using UnityEngine;
 
 
@@ -26,7 +27,7 @@ public class DynamicObject : MonoBehaviour
 
 	// For dragging the object to other objects or into the inventory
 	private bool isOverlapping = false;
-	private GameObject overlappingObject = null;
+	private List<GameObject> overlappingObjects = new List<GameObject>();
 	private bool overlapsInventory = false;
 	private bool isInInventory = false;
 	public bool IsInInventory
@@ -99,6 +100,9 @@ public class DynamicObject : MonoBehaviour
 		{
 			_renderer.sortingOrder = ++maxSortingOrder;
 		}
+		isOverlapping = false;
+		overlappingObjects.Clear();
+		overlapsInventory = false;
 	}
 
 	private void OnMouseDown()
@@ -126,10 +130,11 @@ public class DynamicObject : MonoBehaviour
 
 	public void OnMouseUp()
 	{
+		//print(gameObject.name);
 		if (_inventory != null && _inventory.IsOpen) return;
 		_mouseDown = false;
 		
-		if (_startPos == transform.position)
+		if (_startMousePos == Camera.main.ScreenToWorldPoint(Input.mousePosition))
 		{
 			if (_haveActionHandler) _actionHandler.HandleAction();
 		}
@@ -142,15 +147,17 @@ public class DynamicObject : MonoBehaviour
 		
 		_mouseDown = false;
 		if (!(_startPos == transform.position)) {
-			if (isOverlapping)
-			{
+			//if (isOverlapping) {
+			foreach (GameObject overlappingObject in overlappingObjects) {
+				print("overlap with " + overlappingObject.name);
 				if (_haveCombineHandler) _combineHandler.HandleCombination(overlappingObject);
 				CombineHandler otherCh = overlappingObject.GetComponent<CombineHandler>();
-				if (otherCh != null)
-				{
+				if (otherCh != null) {
 					otherCh.HandleCombination(gameObject);
 				}
 			}
+			overlappingObjects.Clear();
+			//}
 			if (overlapsInventory)
 			{
 				PutIntoInventory();
@@ -169,9 +176,8 @@ public class DynamicObject : MonoBehaviour
 		}
 		else
 		{
-			isOverlapping = true;
-			overlappingObject = other.gameObject;
-			print(overlappingObject.name);
+			overlappingObjects.Add(other.gameObject);
+			print(other.name);
 		}
 	}
 
@@ -186,8 +192,7 @@ public class DynamicObject : MonoBehaviour
 		else
 		{
 			print(other.name);
-			isOverlapping = false;
-			overlappingObject = null;
+			overlappingObjects.Remove(other.gameObject);
 		}
 	}
 

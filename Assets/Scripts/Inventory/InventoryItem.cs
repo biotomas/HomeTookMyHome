@@ -25,11 +25,12 @@ public class InventoryItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         {
             GetComponentInParent<Inventory>().Close();
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            GameObject newObject = Instantiate(objectPrefab, pos, Quaternion.identity);
-            newObject.transform.SetParent(null);
-            newObject.transform.Translate(0, 0, 0);
-            newObject.GetComponent<DynamicObject>().SpawnDragging();
+            GameObject newObject = objectPrefab;
             newObject.SetActive(true);
+            newObject.transform.position = pos;
+            //GameObject newObject = Instantiate(objectPrefab, pos, Quaternion.identity);
+            newObject.transform.SetParent(null);
+            newObject.GetComponent<DynamicObject>().SpawnDragging();
             GetComponentInParent<Inventory>().DeleteItem(this.gameObject);
         }
     }

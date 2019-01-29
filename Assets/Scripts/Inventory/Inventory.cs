@@ -10,6 +10,10 @@ public class Inventory : MonoBehaviour
 {
     public GameObject inventoryItemPrefab;
     public GameObject uiContent;
+
+
+    public AudioSource audioSource;
+    public AudioClip takeSound;
     
     
     private bool _isOpen = false;
@@ -91,6 +95,9 @@ public class Inventory : MonoBehaviour
         newItem.GetComponent<InventoryItem>().objectPrefab = item;
         newItem.transform.position = Vector3.zero;
         newItem.transform.SetParent(uiContent.transform);
+
+        audioSource.clip = takeSound;
+        audioSource.Play();
         
         items.Add(newItem);
     }

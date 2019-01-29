@@ -27,14 +27,15 @@ public class GameMasterScript : MonoBehaviour
         for (int i = 0; i < cameras.Length; i++) {
             if (i == index) {
                 cameras[i].enabled = true;
-                inventoryIcon.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth - 40, 32));
+                
+                // Move inventory icon, but not to the phone room
+                if (i != 6) {
+                    inventoryIcon.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth * 9 / 10, cameras[i].pixelHeight * 1 / 8));
+                }
 
-                if (i == 3 && getFlag("-c-ordered") && !getFlag("-c-delivered"))
-                {
-                    spaghett.transform.position = cameras[i].ScreenToWorldPoint(new Vector3(cameras[i].pixelWidth / 2, cameras[i].pixelHeight / 2));
-                    audioSource.clip = deliveryThreeFifty;
-                    audioSource.Play();
-                    setFlag("-c-delivered");
+                // If we get to the kitchen and ordered spaghett, then they will arrive now
+                if (i == 3 && getFlag("-c-ordered")) {
+                    SpawnSpaghett();
                 }
             } else {
                 cameras[i].enabled = false;
@@ -54,8 +55,29 @@ public class GameMasterScript : MonoBehaviour
         return flags.Contains(name);
     }
 
-    public void setFlag(string name) {
-        flags.Add(name);
+    public void setFlag(string name, bool value = true) {
+        if (value) {
+            flags.Add(name);
+        }
+        else {
+            flags.Remove(name);
+        }
+    }
+    
+    
+    // ==================================================
+
+    private void SpawnSpaghett() {
+        Vector3 spaghettPosition = cameras[3].ScreenToWorldPoint(new Vector3(cameras[3].pixelWidth / 2,
+            cameras[3].pixelHeight / 2));
+        GameObject newSpaghett = Instantiate(spaghett, spaghettPosition, Quaternion.identity);
+        newSpaghett.GetComponent<TakeSpaghett>().dialogSpawner =
+            spaghett.GetComponent<TakeSpaghett>().dialogSpawner;
+        newSpaghett.GetComponent<DynamicObject>().audioSource =
+            spaghett.GetComponent<DynamicObject>().audioSource;
+        audioSource.clip = deliveryThreeFifty;
+        audioSource.Play();
+        setFlag("-c-ordered", false);
     }
 
 }

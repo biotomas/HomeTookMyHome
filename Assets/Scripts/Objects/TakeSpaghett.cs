@@ -9,6 +9,9 @@ public class TakeSpaghett : TakeToInventoryHandler
     
     public override void HandleTake()
     {
-        dialogSpawner.startDialog(which);
+        if (!GameMasterScript.instance.getFlag("-c-spaghettiPockets")) {
+            dialogSpawner.startDialog(which);
+            GameMasterScript.instance.setFlag("-c-spaghettiPockets");
+        }
     }
 }

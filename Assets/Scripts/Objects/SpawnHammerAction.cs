@@ -5,6 +5,9 @@ using UnityEngine;
 public class SpawnHammerAction : ActionHandler
 {
     public GameObject hammer;
+
+    public AudioSource audioSource;
+    public AudioClip spawnHammerSound;
     
     public override void HandleAction()
     {
@@ -12,6 +15,8 @@ public class SpawnHammerAction : ActionHandler
         {
             hammer.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             GameMasterScript.instance.setFlag("gotHammer");
+            audioSource.clip = spawnHammerSound;
+            audioSource.Play();
         }
     }
 }
